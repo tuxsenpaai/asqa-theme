@@ -3,6 +3,7 @@
 Theme based on [theunraveler](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes#theunraveler)
 
 ![screenshot](asq.png)
+
 *Color scheme used: [Cobalt Neon](https://github.com/lysyi3m/osx-terminal-themes#cobalt-neon)*
 
 ## Installation
