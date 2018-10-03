@@ -6,7 +6,7 @@ function battery() {
         if [ $(battery_pct) -gt 20 ]; then
             echo "%{\e[0m%}%b%B[%b%{$fg[blue]%}$(battery_pct)%%%{\e[0m%}%B]%b"
         else
-            echo "%{\e[0m%}%b%B[%b%{$fg[red]%}$(battery_pct)%%%{\e[0m%}%B]%b"
+            echo "%{\e[0m%}%b%B[%b%{$fg[red]%}$(battery_pct)% : $(battery_time_remaining)%%{\e[0m%}%B]%b"
         fi
     fi
 }
