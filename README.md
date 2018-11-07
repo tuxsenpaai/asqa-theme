@@ -14,6 +14,14 @@ Follow the [oh-my-zsh instructions](https://github.com/robbyrussell/oh-my-zsh/wi
 ```
 Then enable the battery plugin in your **.zshrc** file - if this pluggin isn't enabled, an annoying error will keep poping up.
 
+```
+plugins=(
+    ...
+    battery
+    ...
+)
+```
+
 Finally, set the theme in you **.zshrc** file
 
 ```
